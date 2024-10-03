@@ -1,0 +1,51 @@
+
+/* Шапка */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+/* Вы также можете заменить 'Montserrat' на 'Raleway' или 'Poppins', если решите использовать другой шрифт */
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+header {
+    background-color: #1b3d5f;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #1b3d5f;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+  }
+  
+  .social-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+  }
+  
+  .social-links a:hover {
+    text-decoration: underline;
+  }
+  

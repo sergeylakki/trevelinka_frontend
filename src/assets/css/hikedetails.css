@@ -1,0 +1,97 @@
+/* hikeDetails.css */
+
+.hike-details {
+    display: flex;
+    flex-direction: column;
+    background-color: #f0f8ff;
+    padding: 20px;
+  }
+  
+  .hike-banner {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 40px;
+  }
+  
+  .hike-banner-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    filter: brightness(70%);
+  }
+  
+  .hike-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .hike-title h1 {
+    font-size: 3em;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 5px;
+    color: #fff;
+  }
+  
+  .hike-title .hike-description {
+    font-size: 1.2em;
+    color: #ddd;
+    margin-top: 10px;
+  }
+  
+  .hike-info {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  
+  .hike-details-section {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hike-details-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+  
+  .hike-details-section ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .hike-details-section ul li {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+  }
+  
+  .hike-details-section ul li strong {
+    color: #007bff;
+  }
+  
+  .hike-map {
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .hike-map h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .hike-map-image {
+    width: 100%;
+    border-radius: 8px;
+    object-fit: cover;
+  }
+  
